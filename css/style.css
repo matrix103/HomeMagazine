@@ -56,7 +56,9 @@
    flex-direction: column;
 }
 .nav__arrow__link{
-   text-decoration: none;
+   font-family: 'gilroy-medium';
+   font-size: 20px;
+   color: #000;
 }
 .header__search {
    margin-left: 120px;
