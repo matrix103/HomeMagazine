@@ -1,39 +1,44 @@
 @font-face { 
    font-family: "gilroy-bold"; 
-   src: url("/homemagazine/fonts/gilroy-bold.ttf") format("truetype"); 
+   src: url("/fonts/gilroy-bold.ttf") format("truetype"); 
    font-style: normal; 
    font-weight: normal; 
    } 
 @font-face { 
    font-family: "gilroy-medium"; 
-   src: url("/homemagazine/fonts/gilroy-medium.ttf") format("truetype"); 
+   src: url("/fonts/gilroy-medium.ttf") format("truetype"); 
    font-style: normal; 
    font-weight: normal; 
    }
  @font-face { 
    font-family: "gilroy-regular"; 
-   src: url("/homemagazine/fonts/gilroy-regular.ttf") format("truetype"); 
+   src: url("/fonts/gilroy-regular.ttf") format("truetype"); 
    font-style: normal; 
    font-weight: normal; 
    }
 @font-face { 
    font-family: "gilroy-semibold"; 
-   src: url("/homemagazine/fonts/gilroy-semibold.ttf") format("truetype"); 
+   src: url("/fonts/gilroy-semibold.ttf") format("truetype"); 
    font-style: normal; 
    font-weight: normal; 
    }
 
-.header{
+body{
+   margin: 0;
+}
 
+/* HEADER */
+
+.header{
 }
 
 .header a {
    text-decoration: none;
 }
 .header__container {
-   width: 100%;
+   width: 1400px;
+   margin: 40px auto 50px auto;
    display: flex;
-   margin-left: 100px;
 }
 .nav {
    display: flex;
@@ -81,6 +86,7 @@
 }
 
 .header__search__input{
+   border: none;
    height: 50px;
    width: 430px;
    padding-left: 45px;
@@ -95,5 +101,56 @@
    margin-left: 30px;
 }
 
+.background__intro {
+   position: absolute;
+   top: 0;
+   z-index: -1;
+   height: 800px;
+   width: 100%;
+   display: flex;
+}
 
+.background__intro__left {
+   background-color: #F9F1E7;
+   width: 67%;
+}
+
+.background__intro__right {
+   width: 33%;
+   background-color: #FCF8F3;
+}
    
+/* FOOTER */
+
+.footer {
+}
+.footer__container {
+}
+.footer__line {
+}
+.footer__main {
+}
+.footer__title {
+}
+.footer__main__subtitle {
+}
+.footer__main__info {
+}
+.footer__main__img {
+}
+.footer__main__text {
+}
+.footer__main__link {
+}
+.footer__menu {
+}
+.footer__subtitle {
+}
+.footer__email {
+}
+.footer__email__form {
+}
+.footer__email__button {
+}
+.footer__email__input {
+}
