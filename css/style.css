@@ -51,12 +51,14 @@ body{
    color: #000;
 }
 .nav__arrow {
+   position: relative;
    margin-right: 15px;
    font-family: 'gilroy-medium';
    font-size: 20px;
    color: #000;
 }
 .nav_arrow__burger {
+   position: absolute;
    display: none;
    flex-direction: column;
 }
