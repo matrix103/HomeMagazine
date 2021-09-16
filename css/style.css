@@ -59,15 +59,31 @@ body{
    color: #000;
 }
 .nav_arrow__burger {
+   padding-left: 10px;
+   padding-right: 10px;
+   height: 100px;
+   width: 100px;
+   justify-content: space-around;
+   padding-top: 5px;
    position: absolute;
    display: none;
    flex-direction: column;
+   background-color: #616161;
 }
+
+.nav_arrow__burger a{
+   color: #fff;
+}
+
 .nav__arrow__link{
    font-family: 'gilroy-medium';
    font-size: 20px;
    color: #000;
 }
+.nav__arrow__link:hover{
+   color: #E89F71;
+}
+
 .header__search {
    margin-left: 120px;
 }
@@ -75,6 +91,7 @@ body{
 .header__search__form{
    width: 480px;
    position: relative;
+   
 }
 
 .header__search__button{

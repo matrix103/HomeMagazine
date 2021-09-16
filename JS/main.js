@@ -3,6 +3,7 @@ window.onload = function () {
    var Products__link = document.querySelector('#Products__link');
    var rooms__link = document.querySelector('#rooms__link');
    //вешаем на него события
+
    Products__link.onmouseout = function(e) {
      document.getElementById('Products__link__open').style.display='none';
    }
@@ -11,10 +12,10 @@ window.onload = function () {
     }
  
    Products__link.onmouseover = function(e) {
-     document.getElementById('Products__link__open').style.display='block';
+      document.getElementById('Products__link__open').style.display='flex';
    };
    rooms__link.onmouseover = function(e) {
-      document.getElementById('rooms__link__open').style.display='block';
+      document.getElementById('rooms__link__open').style.display='flex';
     };
  }
  
