@@ -260,20 +260,39 @@ body{
 }
 
 .our__products {
+   width: 1400px;
+   margin: 0 auto;
 }
 .our__products_title {
+   text-align: center;
+}
+.our__products_inner{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
 .our__products_item {
+   margin-right: 1px;
+   position: relative;
+   background-color: #F4F5F7;
 }
 .our__products_item_img {
+   height: 300px;
+   width: 280px;
 }
 .our__products_item_sale {
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin-right: 20px;
+   margin-top: 20px;
 }
 .our__products_item_title {
 }
 .our__products_item_subtitle {
 }
 .our__products_price {
+   display: flex;
 }
 .our__products_fullprice {
 }
