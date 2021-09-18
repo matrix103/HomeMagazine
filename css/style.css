@@ -215,8 +215,6 @@ body{
    color: #616161;
    font-weight: 500;
 }
-.footer__email {
-}
 .footer__email__form {
    display: flex;
    align-items: center;
@@ -233,3 +231,62 @@ body{
    width: 250px;
    height: 45px;
 }
+
+.about__us {
+   width: 1400px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+.about__us_item {
+   padding-left: 25px;
+   display: flex;
+}
+.about__us_item_text {
+   margin-left: 25px;
+}
+.about__us_title {
+   font-family: 'gilroy-medium';
+   font-size: 18px;
+   font-weight: 600;
+   margin-bottom: 5px;
+   margin-top: 0;
+}
+.about__us_subtitle {
+   font-family: 'gilroy-medium';
+   font-size: 16px;
+   font-weight: 500;
+   margin: 0;
+}
+
+.our__products {
+}
+.our__products_title {
+}
+.our__products_item {
+}
+.our__products_item_img {
+}
+.our__products_item_sale {
+}
+.our__products_item_title {
+}
+.our__products_item_subtitle {
+}
+.our__products_price {
+}
+.our__products_fullprice {
+}
+.our__products_saleprice {
+}
+.our__products_itemHover {
+}
+.our__products_btn {
+}
+.our__products_hoverImg {
+}
+.our__products_img_left {
+}
+.our__products_img_right {
+}
+
