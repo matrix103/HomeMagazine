@@ -358,6 +358,10 @@ body{
    color: #E89F71;
    text-decoration: none;
 }
+.our__products_btn:hover{
+   background-color: #E89F71;
+   color: #fff;
+}
 .our__products_hoverImg {
    margin-top: 15px;
    display: flex;
@@ -366,16 +370,15 @@ body{
    margin-left: auto;
    margin-right: auto;
 }
-.our__products_img_left {
+.our__products_img {
    margin-top: auto;
    margin-bottom: auto;
    width: 75px;
    height: 25px;
+   fill: #E89F71;
 }
-.our__products_img_right {
-   width: 75px;
-   height: 25px;
-   margin-top: auto;
-   margin-bottom: auto;
+.our__products_img:hover{
+   -webkit-filter: hue-rotate(90deg);
+   filter: hue-rotate(90deg);
 }
 
