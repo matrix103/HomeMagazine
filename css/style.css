@@ -267,6 +267,8 @@ body{
 }
 .our__products_title {
    text-align: center;
+   margin-bottom: 50px;
+   margin-top: 120px;
 }
 .our__products_inner{
    display: flex;
@@ -378,7 +380,6 @@ body{
    fill: #E89F71;
 }
 .our__products_img:hover{
-   -webkit-filter: hue-rotate(90deg);
-   filter: hue-rotate(90deg);
+   
 }
 
